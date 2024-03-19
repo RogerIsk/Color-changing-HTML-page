@@ -1,2 +1,2 @@
-# DCI-Official
-Repository for official DCI projects
+# DCI
+Repository for DCI projects
