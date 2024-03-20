@@ -1,2 +1,2 @@
 # DCI
-Repository for DCI projects
+Repository for DCI projects and exercises
