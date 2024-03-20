@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roger's Portfolio</title>
+    <style>
+        .text {
+            width: 50%;
+         }
+        .sticky-text {
+            position: fixed;
+            bottom: 0;
+            width: 50%;
+            background-color: #641e16;
+            text-align: center;
+            padding: 10px 0;
+        }
+       
+        header {
+            background-color: #003; /* Dark background for the header */
+            padding: 1px 0; /* Padding above and below the text */
+        }
+        .spaced-text {
+            padding-right: 20px; /* Add padding to the right of the text */
+        }
+        .center {
+            display: block;
+            text-align: center; /* Center-align the header content */
+        }
+        .center-table {
+            margin: 0 auto; /* Auto margin horizontally centers the table */
+        }
+        
+        .highlight {
+            background-color: #ffff99; /* Highlights important reasons */
+            border-left: 5px solid #ffff00;
+            padding: 1px 0; /* Padding above and below the footer content */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="center">
+        <span style="color: blue;"><h1>WELCOME TO MY WEBSITE</h1></span>    
+        </div>
+    </header>
+   
+      
+    <main>
+      <div class="center">
+            <table class="center-table">
+                <tr>
+                    <th><a href="#"><span class="spaced-text">Home</a></th>
+                    <th><a href="#"><span class="spaced-text">About</a></th>
+                    <th><a href="#">Contact</a></th>
+                </tr>
+            </table>
+      <div class="center">
+        <h2>Introduction</h2>
+          <div class="highlight">
+          <p>Welcome to my page! My name is Roger and I love creative work, including coding and art.</p>
+         </p>Throughout the years I have deeloped a few useful and some maybe not so useful skills...</p>
+    </main>
+  
+  
+    <div class="center">
+    <br><button onclick="changeColor()">Change Color</button>
+    <script>
+          function changeColor() {
+              // Generate a random color
+              var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+              // Apply the random color to the background of the body
+              document.body.style.backgroundColor = randomColor;
+          }
+    </script>
+  
+  <br><br><div class="text">The Journey of Exploration
+
+Once upon a time in a land far, far away, there existed a realm of untold mysteries and uncharted territories. It was a world where the winds whispered secrets of forgotten civilizations, and the stars above held the keys to ancient wisdom. In this land of wonder, brave souls embarked on epic journeys of exploration, seeking to unravel the mysteries that lay hidden beyond the horizon.
+
+The journey began in the quiet village of Oakridge, nestled amidst rolling hills and lush green forests. It was here that young adventurers gathered, their hearts filled with dreams of grandeur and glory. Among them was a bold and fearless explorer named Aria, whose thirst for adventure knew no bounds. With her trusty map in hand and a twinkle in her eye, she set out on a quest to uncover the secrets of the lost city of Atlantis.
+
+As Aria ventured forth into the unknown, she encountered a myriad of challenges and obstacles along the way. From treacherous mountains to vast deserts, each leg of her journey presented new trials to overcome. Yet, with unwavering determination and the support of her companions, she pressed on, driven by the promise of discovery that lay just beyond the horizon.
+
+Through dense jungles and winding rivers, Aria forged ahead, her spirit unbroken despite the hardships she faced. Along the way, she encountered ancient ruins and forgotten temples, each offering glimpses into a bygone era shrouded in mystery. With each new discovery, Aria's resolve only grew stronger, fueled by the knowledge that she was on the cusp of unlocking the secrets of the past.
+
+Finally, after months of tireless travel, Aria arrived at the fabled city of Atlantis, its towering spires rising majestically above the shimmering sea. As she stood before the gates of this legendary metropolis, she felt a sense of awe wash over her, knowing that she had finally reached the culmination of her journey. With a steady hand and a beating heart, she pushed open the doors and stepped into the heart of the ancient city.
+
+What awaited Aria inside the walls of Atlantis was beyond anything she could have imagined. The streets were lined with towering columns and adorned with intricate carvings, each telling a story of a civilization long forgotten. As she wandered through the labyrinthine streets, Aria marveled at the wonders that surrounded her, knowing that she had finally unlocked the secrets of the past.
+
+But Aria's journey was far from over. With the knowledge she had gained from her time in Atlantis, she set out once more, this time on a quest to share her discoveries with the world. From the halls of academia to the farthest reaches of the globe, she traveled, spreading the tales of her adventures and inspiring others to follow in her footsteps.
+
+And so, the legacy of Aria the explorer lived on, her name whispered in hushed tones by those who dared to dream of a world filled with wonder and discovery. For in the end, it was not the treasures she found or the challenges she overcame that defined her journey, but the spirit of adventure that burned bright within her heart.
+    <footer>
+        <div class="sticky-text">
+        <p>&copy; 2024 RDS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
